@@ -9,6 +9,7 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/graduation-cap.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6356d50d47.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,8 +33,8 @@
                                 <a class="nav-link active ">Success</a>
                                 <a class="nav-link active ">About</a>
                             </div>
-                            <div class="btn btn-light text-info    px-3 border-info" style="height:40px ;">Register
-                            </div>
+                            <a class="btn btn-light text-info    px-3 border-info" style="height:40px ;">Register
+                            </a>
                         </div>
 
                     </div>
@@ -72,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -81,7 +82,7 @@
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-            </button>
+            </button> -->
             </div>
         </section>
     </header>
@@ -96,7 +97,7 @@
                 <p>Choose from 185,000 online video courses with new additions published every month</p>
             </div>
             <div class="course-area container mt-5">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
                     <div class="col">
                         <div class="card d-flex flex-lg-row card-section min-h-20 ">
                             <img src="images/python.jpg" class="card-img-top" alt="...">
@@ -193,10 +194,10 @@
                       </div>
                 </div>
                 <div class="modal-section d-flex justify-content-center mt-5 ">
-                    <div class="card w-75 h-75 bg-info text-light" >
-                        <div class="card-body d-flex justify-content-between align-items-center p-5 m-5 ">
-                          <div class="details"><h4 class="card-title">Ready to Sign Up?</h4>
-                            <p class="card-text">We’ve got the solution: world-class training and development programs developed by top universities and companies.</p></div>
+                    <div class="card  bg-info text-light" >
+                        <div class="card-body d-flex justify-content-between align-items-center p-5 m-5  ">
+                          <div class="details w-50"><h4 class="card-title">Ready to Sign Up?</h4>
+                            <p class="card-text">World-class training and development programs developed by top universities and companies.</p></div>
                           <div class="modal-area"><!-- Button trigger modal -->
                             <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
                               Register
@@ -238,9 +239,121 @@
                       </div>
                       
                 </div>
+                
         </section>
+        <div class="accordian-area container mt-5 w-50">
+            <h3>FAQ</h3>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      What is difference between Flexbox and Grid?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      What is difference between bootstrap and tailwind ?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Bootstrap's utility and layout classes provide you with everything you need to style a responsive webpage. With Tailwind, however, you are much more involved in styling the webpage because you end up having to create your own components using the utility classes that the framework offers.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      What is CSS box model?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      What is Semantic Tag?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.</div>
+                  </div>
+                </div>
+              </div> 
+        </div>
+
+        
     </main>
     <!-- main ends here -->
+    <footer>
+
+        <div class="footer-area mt-5">
+            <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="">
+
+    <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <div class="top">
+            <h2>Eduworld</h2>
+            <p>Office 41, Zawaya Buildin, Ghala Muscat, 
+                Sultanate of Oman</p>
+        </div>
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="">Samiul</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    
+  </div>
+  <!-- End of .container -->
+        </div>
+    </footer>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
