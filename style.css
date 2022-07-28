@@ -1,7 +1,7 @@
 @media only screen and (min-width: 800px) {
     .card-section{
         display: flex;
-        max-height: 250px;
+        max-height: 200px;
     }
     .card-section h5,p{
         font-size: 100%;
