@@ -1,4 +1,7 @@
 @media only screen and (min-width: 800px) {
+    .carousel-caption{
+        visibility: hidden;
+    }
     .card-section{
         display: flex;
         max-height: 200px;
@@ -16,18 +19,24 @@
     .trusted-area {
         display: none;
     }
+    .carousel-caption{
+        visibility: hidden;
+    }
  }
 
 
 @media (max-width: 767.98px) { .trusted-area{
         display:none;
-    } }
+    }
+    .carousel-caption{
+        visibility: hidden;
+    }
+}
 
 
-/* @media (max-width: 991.98px) { .trusted-area {
-    display: none;
-}} */
+@media (min-width: 1024px) {
+    .carousel-caption{
+        visibility: visible;
+    }
 
-
-@media (max-width: 1199.98px) { ... }
-
+}
